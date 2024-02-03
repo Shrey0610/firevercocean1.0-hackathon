@@ -15,21 +15,24 @@ function FirstContent(){
          Are you a student who is looking for quick but apt solutions?
         </h1>
         <p className="lead" style= {{paddingTop: 10}}>
-          Well then you're at the right place!
+          Well then you're at the right place! 🫡
         </p>
+        <br />
         <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <a href= "#">
           <button
             type="button"
             className="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
           >
-            Primary
-          </button>
+             Sign Up now!
+          </button></a>
+          <a href= "#">
           <button
             type="button"
             className="btn btn-outline-secondary btn-lg px-4"
           >
-            Default
-          </button>
+            About Us
+          </button></a>
         </div>
       </div>
       <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
@@ -197,90 +200,82 @@ class App2 extends React.Component{
       </div>
       <div className="row justify-content-start mt-5 py-5">
         <div className="col-md-4 heading-section ftco-animate">
-          <h2 className="mb-4">Our Services</h2>
+          <h2 className="mb-4" style= {{fontSize: 50}}>Our Services</h2>
           <p>
            What can you expect from us...
           </p>
         </div>
         <div className="col-md-8 ftco-animate">
-          <div className="row d-flex">
-            <div className="col-md-6 d-flex align-items-stretch">
+          <div className="row d-flex" >
+            <div className="col-md-6 d-flex align-items-stretch" style= {{height: 350}}>
               <div className="media block-6 services services-2 d-block bg-light p-4 mb-4">
                 <div className="icon d-flex justify-content-center align-items-center">
                   <img
                     src="/Screenshot 2023-12-27 at 23.29.33.png"
                     alt=""
                     className="src"
+                    style= {{height: 100}}
                   />
                 </div>
                 <div className="media-body p-2 mt-3">
-                  <h3 className="heading">Design</h3>
+                  <h3 className="heading">PathForge</h3>
                   <p>
-                    Provide a selection of ambient sounds like nature sounds,
-                    calming music, or white noise, allowing users to create a
-                    personalized and serene environment.
+                  Personalized learning platform analyzes students' styles, strengths, and weaknesses, crafting tailored pathways with specific topics, resources, and interactive activities to deepen subject understanding.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 d-flex align-items-stretch">
+            <div className="col-md-6 d-flex align-items-stretch" style= {{height: 350}}>
               <div className="media block-6 services services-2 d-block bg-light p-4 mb-4">
                 <div className="icon d-flex justify-content-center align-items-center">
                   <img
                     src="/Screenshot 2023-12-27 at 23.29.33.png"
                     alt=""
                     className="src"
+                    style= {{height: 100}}
                   />
                 </div>
                 <div className="media-body p-2 mt-3">
-                  <h3 className="heading">Relaxation Techniques</h3>
+                  <h3 className="heading">EduHub</h3>
                   <p>
-                    Incorporate diverse relaxation techniques, including
-                    deep-breathing exercises, progressive muscle relaxation, and
-                    mindfulness-based stress reduction.
+                  AI-driven tool analyzes educational content, creating adaptive summaries for diverse audiences. Ensures accessibility with catered summaries at varying reading levels, fostering inclusive education.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 d-flex align-items-stretch">
+            <div className="col-md-6 d-flex align-items-stretch"  style= {{height: 350}}>
               <div className="media block-6 services services-2 d-block bg-light p-4 mb-4">
                 <div className="icon d-flex justify-content-center align-items-center">
                   <img
                     src="/Screenshot 2023-12-27 at 23.29.33.png"
                     alt=""
                     className="src"
+                    style= {{height: 100}}
                   />
                 </div>
                 <div className="media-body p-2 mt-3">
-                  <h3 className="heading">Guided Meditations</h3>
+                  <h3 className="heading">MultiLingo</h3>
                   <p>
-                    Offer a variety of guided meditation sessions tailored to
-                    different needs, such as stress reduction, sleep
-                    enhancement, or focus improvement.
+                  Generative AI platform translates and adapts educational content into multiple languages. Breaks language barriers, enabling students worldwide to access quality materials in their native languages.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 d-flex align-items-stretch">
+            <div className="col-md-6 d-flex align-items-stretch"  style= {{height: 350}}>
               <div className="media block-6 services services-2 d-block bg-light p-4 mb-4">
                 <div className="icon d-flex justify-content-center align-items-center">
                   <img
                     src="/Screenshot 2023-12-27 at 23.29.33.png"
                     alt=""
                     className="src"
+                    style= {{height: 100}}
                   />
                 </div>
                 <div className="media-body p-2 mt-3">
-                  <h3 className="heading">Support &amp; Renovation</h3>
+                  <h3 className="heading">LabGuide</h3>
                   <p>
                     {" "}
-                    Regular usage enables users to develop resilience, manage
-                    stress, and cultivate a sense of calmness. The app's
-                    adaptability to individual preferences ensures a
-                    personalized journey, fostering a lasting and transformative
-                    relationship with inner tranquility. In essence, it acts as
-                    a digital sanctuary for users, providing ongoing support and
-                    renovation for their mental and emotional well-being.
+                   This provides the guide to students about different lab sessions of different subjects like Physics, Chemistry or even mathematics.
                   </p>
                 </div>
               </div>
@@ -295,9 +290,9 @@ class App2 extends React.Component{
       <div className="row justify-content-start mb-5 pb-2">
         <div className="col-md-4 heading-section ftco-animate">
           <span className="subheading subheading-with-line">
-            <small className="pr-2 bg-white">Projects</small>
+            <h2 className="pr-2 bg-white" style= {{fontSize: 50}}>Other Features</h2>
           </span>
-          <h2 className="mb-4">Featured Projects</h2>
+         
         </div>
         <div className="col-md-8 pl-md-5 heading-section ftco-animate">
           <div className="pl-md-4 border-line">
