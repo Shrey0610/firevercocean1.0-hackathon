@@ -14,7 +14,7 @@ function FirstContent(){
         <h1 className="display-4 fw-bold lh-1 text-body-emphasis">
          Are you a student who is looking for quick but apt solutions?
         </h1>
-        <p className="lead">
+        <p className="lead" style= {{paddingTop: 10}}>
           Well then you're at the right place!
         </p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
@@ -98,26 +98,19 @@ class App2 extends React.Component{
             height: 500
           }}
         ></div>
-        <div className="col-md-7 wrap-about pb-md-5 ftco-animate">
-          <div className="heading-section mb-5 pl-md-5">
+        <div className="col-md-7 wrap-about pb-md-5 ftco-animate" style= {{padding: 15}}>
+          <div className="heading-section mb-5 pl-md-5" >
             <div className="pl-md-5 ml-md-5">
               <span className="subheading subheading-with-line">
                 <small className="pr-2 bg-white">About</small>
               </span>
               <h2 className="mb-4">
-                A multifaceted approach to your employees’ mental wellness
-              </h2>
+                A multifaceted approach to the students' career</h2>
             </div>
           </div>
           <div className="pl-md-5 ml-md-5 mb-5">
             <p>
-              In the bustling digital age, the 'Serene Business' emerges as a
-              beacon of serenity amid the chaos. This innovative venture aims to
-              deliver a sanctuary of peace to users' fingertips, offering a
-              diverse range of mindfulness and relaxation features. Through
-              guided meditation sessions, soothing ambient sounds, and
-              personalized stress-relief programs, the app becomes a virtual
-              oasis for individuals seeking tranquility in their hectic lives.{" "}
+            The proposed educational innovations utilize Generative AI to revolutionize learning experiences. From personalized learning pathways to multilingual content creation, these platforms cater to diverse needs. The tools include an adaptive content summarizer, homework assistant, and inclusive learning material generator, ensuring accessibility and inclusivity. Collaborative platforms and virtual lab assistants enhance global collaboration and hands-on learning, shaping a future-focused educational landscape.{" "}
             </p>
             <p>
               Utilizing cutting-edge technology, the business integrates
@@ -136,69 +129,14 @@ class App2 extends React.Component{
       </div>
     </div>
   </section>
-  <section
-    className="ftco-section ftco-counter img"
-    id="section-counter"
-    style={{
-      backgroundImage:
-        "url(/images/images/GettyImages-1470160123-400x400-c-default.webp)"
-    }}
-    data-stellar-background-ratio="0.5"
-  >
-    <div className="container">
-      <div className="row d-md-flex align-items-center justify-content-end">
-        <div className="col-lg-10">
-          <div className="row d-md-flex align-items-center">
-            <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-              <div className="block-18">
-                <div className="text">
-                  <strong className="number" data-number={20}>
-                    0
-                  </strong>
-                  <span>Years of Experienced</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-              <div className="block-18">
-                <div className="text">
-                  <strong className="number" data-number={100}>
-                    0
-                  </strong>
-                  <span>Happy Clients</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-              <div className="block-18">
-                <div className="text">
-                  <strong className="number" data-number={200}>
-                    0
-                  </strong>
-                  <span>Finished Projects</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-              <div className="block-18">
-                <div className="text">
-                  <strong className="number" data-number={300}>
-                    0
-                  </strong>
-                  <span>Working Days</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+          <br/>
+          <br/>
   <section className="ftco-services">
+    <br/>
     <div className="container">
       <div className="row justify-content-start mb-5 pb-5">
         <div className="col-md-4 heading-section ftco-animate">
-          <h2 className="mb-4">Our Work Flow</h2>
+          <h2 style= {{fontSize: 50}}> Our Work Flow-</h2>
         </div>
         <div className="col-md-8 pl-md-5 ftco-animate">
           <div className="pl-md-4 border-line"></div>
@@ -209,19 +147,16 @@ class App2 extends React.Component{
           <div className="media block-6 services d-block">
             <div className="icon d-flex justify-content-center align-items-center">
               <img
-                src="/images/images/Screenshot 2023-12-27 at 23.28.12.png"
+                src="/Screenshot 2023-12-27 at 23.28.12.png"
                 alt=""
                 className="src"
               />
             </div>
             <div className="media-body p-2 mt-3">
               <h3 className="heading">
-                Content tailored to your employees’ personal needs
+              Analyze students' styles, strengths, and weaknesses. Generate tailored pathways, recommending topics, resources, and activities to enhance understanding.
               </h3>
-              <p>
-                Approachable mental health practices that are engaging,
-                culturally relevant, and diverse.
-              </p>
+
             </div>
           </div>
         </div>
@@ -229,20 +164,16 @@ class App2 extends React.Component{
           <div className="media block-6 services d-block">
             <div className="icon d-flex justify-content-center align-items-center">
               <img
-                src="/images/images/Screenshot 2023-12-27 at 23.29.06.png"
+                src="/Screenshot 2023-12-27 at 23.29.06.png"
                 alt=""
                 className="src"
               />
             </div>
             <div className="media-body p-2 mt-3">
               <h3 className="heading">
-                User-friendly platform built for enterprise benefits leaders
+              Use AI to analyze and adapt educational content. Generate summaries catering to various reading levels, promoting accessibility for diverse audiences.
               </h3>
-              <p>
-                Quickly and comprehensively make mental wellness a priority
-                today with our enterprise-grade tools and resources, so you can
-                focus on the long term.
-              </p>
+           
             </div>
           </div>
         </div>
@@ -250,20 +181,16 @@ class App2 extends React.Component{
           <div className="media block-6 services d-block">
             <div className="icon d-flex justify-content-center align-items-center">
               <img
-                src="/images/images/Screenshot 2023-12-27 at 23.29.18.png"
+                src="/Screenshot 2023-12-27 at 23.29.18.png"
                 alt=""
                 className="src"
               />
             </div>
             <div className="media-body p-2 mt-3">
               <h3 className="heading">
-                Critical business outcomes measured with proper rigor
+              Facilitate collaboration by curating and sharing Open Educational Resources. Employ Generative AI to recommend resources based on user preferences, ensuring diversity and evolution of materials.
               </h3>
-              <p>
-                Leveraging Calm Science, we deliver evidence-based results that
-                are meaningful to your organization and your employees when it
-                comes to protecting their mental health.
-              </p>
+
             </div>
           </div>
         </div>
@@ -272,8 +199,7 @@ class App2 extends React.Component{
         <div className="col-md-4 heading-section ftco-animate">
           <h2 className="mb-4">Our Services</h2>
           <p>
-            Even the all-powerful Pointing has no control about the blind texts
-            it is an almost unorthographic.
+           What can you expect from us...
           </p>
         </div>
         <div className="col-md-8 ftco-animate">
@@ -282,7 +208,7 @@ class App2 extends React.Component{
               <div className="media block-6 services services-2 d-block bg-light p-4 mb-4">
                 <div className="icon d-flex justify-content-center align-items-center">
                   <img
-                    src="/images/images/Screenshot 2023-12-27 at 23.29.33.png"
+                    src="/Screenshot 2023-12-27 at 23.29.33.png"
                     alt=""
                     className="src"
                   />
@@ -301,7 +227,7 @@ class App2 extends React.Component{
               <div className="media block-6 services services-2 d-block bg-light p-4 mb-4">
                 <div className="icon d-flex justify-content-center align-items-center">
                   <img
-                    src="/images/images/Screenshot 2023-12-27 at 23.29.33.png"
+                    src="/Screenshot 2023-12-27 at 23.29.33.png"
                     alt=""
                     className="src"
                   />
@@ -320,7 +246,7 @@ class App2 extends React.Component{
               <div className="media block-6 services services-2 d-block bg-light p-4 mb-4">
                 <div className="icon d-flex justify-content-center align-items-center">
                   <img
-                    src="/images/images/Screenshot 2023-12-27 at 23.29.33.png"
+                    src="/Screenshot 2023-12-27 at 23.29.33.png"
                     alt=""
                     className="src"
                   />
@@ -339,7 +265,7 @@ class App2 extends React.Component{
               <div className="media block-6 services services-2 d-block bg-light p-4 mb-4">
                 <div className="icon d-flex justify-content-center align-items-center">
                   <img
-                    src="/images/images/Screenshot 2023-12-27 at 23.29.33.png"
+                    src="/Screenshot 2023-12-27 at 23.29.33.png"
                     alt=""
                     className="src"
                   />
@@ -402,10 +328,10 @@ class App2 extends React.Component{
     </div>
     <div className="container-wrap">
       <div className="row no-gutters">
-        <div className="col-md-6 col-lg-3 ftco-animate">
+        <div className="col-md-5 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/images/images/young-boy-with-his-head-sky-eyes-closed-clear-day_181624-50883.avif"
+              src="/young-boy-with-his-head-sky-eyes-closed-clear-day_181624-50883.avif"
               className="img-fluid"
               alt="Colorlib Template"
             />
@@ -420,7 +346,7 @@ class App2 extends React.Component{
         <div className="col-md-6 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/images/images/woman-sitting-rock-side-view_23-2149726409.avif"
+              src="/woman-sitting-rock-side-view_23-2149726409.avif"
               className="img-fluid"
               alt="Colorlib Template"
             />
@@ -433,7 +359,7 @@ class App2 extends React.Component{
         <div className="col-md-6 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/images/images/young-woman-holding-her-book-while-looking-out-window_23-2149029695.avif"
+              src="/young-woman-holding-her-book-while-looking-out-window_23-2149029695.avif"
               className="img-fluid"
               alt="Colorlib Template"
             />
@@ -446,7 +372,7 @@ class App2 extends React.Component{
         <div className="col-md-6 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/images/images/serene-young-indian-man-meditating-outdoors-with-his-eyes-closed_1262-12896.avif"
+              src="/serene-young-indian-man-meditating-outdoors-with-his-eyes-closed_1262-12896.avif"
               className="img-fluid"
               alt="Colorlib Template"
             />
@@ -459,532 +385,8 @@ class App2 extends React.Component{
       </div>
     </div>
   </section>
-  <section className="ftco-section testimony-section bg-light">
-    <div className="container">
-      <div className="row justify-content-center mb-5 pb-3">
-        <div className="col-md-7 heading-section ftco-animate">
-          <span className="subheading subheading-with-line">
-            <small className="pr-2 bg-light">Testimony</small>
-          </span>
-          <h2 className="mb-4">Our satisfied customer says</h2>
-          <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in
-          </p>
-        </div>
-      </div>
-      <div className="row ftco-animate">
-        <div className="col-md-12">
-          <div className="carousel-testimony owl-carousel">
-            <div className="item">
-              <div className="testimony-wrap p-4 pb-5">
-                <div
-                  className="user-img mb-5"
-                  style={{
-                    backgroundImage: "url(/images/images/person_1.jpg)"
-                  }}
-                >
-                  <span className="quote d-flex align-items-center justify-content-center">
-                    <i className="icon-quote-left" />
-                  </span>
-                </div>
-                <div className="text">
-                  <p className="mb-5 pl-4 line">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
-                  </p>
-                  <div className="pl-5">
-                    <p className="name">Garreth Smith</p>
-                    <span className="position">
-                      CEO Founder of Commercial Building
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimony-wrap p-4 pb-5">
-                <div
-                  className="user-img mb-5"
-                  style={{
-                    backgroundImage: "url(/images/images/person_2.jpg)"
-                  }}
-                >
-                  <span className="quote d-flex align-items-center justify-content-center">
-                    <i className="icon-quote-left" />
-                  </span>
-                </div>
-                <div className="text">
-                  <p className="mb-5 pl-4 line">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
-                  </p>
-                  <div className="pl-5">
-                    <p className="name">Garreth Smith</p>
-                    <span className="position">
-                      CEO Founder of Interior Design
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimony-wrap p-4 pb-5">
-                <div
-                  className="user-img mb-5"
-                  style={{
-                    backgroundImage: "url(/images/images/person_3.jpg)"
-                  }}
-                >
-                  <span className="quote d-flex align-items-center justify-content-center">
-                    <i className="icon-quote-left" />
-                  </span>
-                </div>
-                <div className="text">
-                  <p className="mb-5 pl-4 line">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
-                  </p>
-                  <div className="pl-5">
-                    <p className="name">Garreth Smith</p>
-                    <span className="position">Exterior Designer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimony-wrap p-4 pb-5">
-                <div
-                  className="user-img mb-5"
-                  style={{
-                    backgroundImage: "url(/images/images/person_1.jpg)"
-                  }}
-                >
-                  <span className="quote d-flex align-items-center justify-content-center">
-                    <i className="icon-quote-left" />
-                  </span>
-                </div>
-                <div className="text">
-                  <p className="mb-5 pl-4 line">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
-                  </p>
-                  <div className="pl-5">
-                    <p className="name">Garreth Smith</p>
-                    <span className="position">Landscape Designer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimony-wrap p-4 pb-5">
-                <div
-                  className="user-img mb-5"
-                  style={{ backgroundImage: "url(/images/images/team-4.jpg)" }}
-                >
-                  <span className="quote d-flex align-items-center justify-content-center">
-                    <i className="icon-quote-left" />
-                  </span>
-                </div>
-                <div className="text">
-                  <p className="mb-5 pl-4 line">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
-                  </p>
-                  <div className="pl-5">
-                    <p className="name">Garreth Smith</p>
-                    <span className="position">System Analyst</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section className="ftco-section">
-    <div className="container">
-      <div className="row justify-content-center mb-5 pb-3">
-        <div className="col-md-7 heading-section ftco-animate">
-          <span className="subheading subheading-with-line">
-            <small className="pr-2 bg-white">Expert Team</small>
-          </span>
-          <h2 className="mb-4">Our Team</h2>
-          <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in
-          </p>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-md-6 col-lg-3 ftco-animate">
-          <div className="staff">
-            <div
-              className="img"
-              style={{ backgroundImage: "url(/images/images/2.jpg)" }}
-            />
-            <div className="text px-4 pt-4">
-              <h3>John Wilson</h3>
-              <span className="position mb-2">Co-Founder / CEO</span>
-              <div className="faded">
-                <p>
-                  I am an ambitious workaholic, but apart from that, pretty
-                  simple person.
-                </p>
-                <ul className="ftco-social d-flex">
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-twitter" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-facebook" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-google-plus" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-3 ftco-animate">
-          <div className="staff">
-            <div
-              className="img"
-              style={{ backgroundImage: "url(/images/images/5.jpeg)" }}
-            />
-            <div className="text px-4 pt-4">
-              <h3>David Smith</h3>
-              <span className="position mb-2">Achitect</span>
-              <div className="faded">
-                <p>
-                  I am an ambitious workaholic, but apart from that, pretty
-                  simple person.
-                </p>
-                <ul className="ftco-social d-flex">
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-twitter" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-facebook" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-google-plus" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-3 ftco-animate">
-          <div className="staff">
-            <div
-              className="img"
-              style={{ backgroundImage: "url(/images/images/3.png)" }}
-            />
-            <div className="text px-4 pt-4">
-              <h3>David Smith</h3>
-              <span className="position mb-2">Achitect</span>
-              <div className="faded">
-                <p>
-                  I am an ambitious workaholic, but apart from that, pretty
-                  simple person.
-                </p>
-                <ul className="ftco-social d-flex">
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-twitter" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-facebook" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-google-plus" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-3 ftco-animate">
-          <div className="staff">
-            <div
-              className="img"
-              style={{ backgroundImage: "url(/images/images/1.png)" }}
-            />
-            <div className="text px-4 pt-4">
-              <h3>David Smith</h3>
-              <span className="position mb-2">Achitect</span>
-              <div className="faded">
-                <p>
-                  I am an ambitious workaholic, but apart from that, pretty
-                  simple person.
-                </p>
-                <ul className="ftco-social d-flex">
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-twitter" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-facebook" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-google-plus" />
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-instagram" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section className="ftco-section bg-light">
-    <div className="container">
-      <div className="row justify-content-start mb-5 pb-2">
-        <div className="col-md-4 heading-section ftco-animate">
-          <span className="subheading subheading-with-line">
-            <small className="pr-2 bg-white">Blog</small>
-          </span>
-          <h2 className="mb-4">Recent Blog</h2>
-        </div>
-        <div className="col-md-8 pl-md-5 heading-section ftco-animate">
-          <div className="pl-md-4 border-line">
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-md-4 ftco-animate">
-          <div className="blog-entry">
-            <a
-              href="blog-single.html"
-              className="block-20"
-              style={{
-                backgroundImage:
-                  'url("/images/images/smiling-tourist-hipster-girl-white-shirt-working-laptop-while-sitting-wooden-bench-beautiful-autumn-forest_613910-19126.avif")'
-              }}
-            ></a>
-            <div className="text d-flex py-4">
-              <div className="meta mb-3">
-                <div>
-                  <a href="#">Jan. 20, 2019</a>
-                </div>
-                <div>
-                  <a href="#">Admin</a>
-                </div>
-                <div>
-                  <a href="#" className="meta-chat">
-                    <span className="icon-chat" /> 3
-                  </a>
-                </div>
-              </div>
-              <div className="desc pl-3">
-                <h3 className="heading">
-                  <a href="#">
-                    Even the all-powerful Pointing has no control about the
-                    blind texts
-                  </a>
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 ftco-animate">
-          <div className="blog-entry" data-aos-delay={100}>
-            <a
-              href="blog-single.html"
-              className="block-20"
-              style={{
-                backgroundImage:
-                  'url("/images/images/young-man-sitting-using-laptop-against-scenery-landscape-forest-andaman-sea-phuket_34362-80.avif")'
-              }}
-            ></a>
-            <div className="text d-flex py-4">
-              <div className="meta mb-3">
-                <div>
-                  <a href="#">Jan. 20, 2019</a>
-                </div>
-                <div>
-                  <a href="#">Admin</a>
-                </div>
-                <div>
-                  <a href="#" className="meta-chat">
-                    <span className="icon-chat" /> 3
-                  </a>
-                </div>
-              </div>
-              <div className="desc pl-3">
-                <h3 className="heading">
-                  <a href="#">
-                    Even the all-powerful Pointing has no control about the
-                    blind texts
-                  </a>
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 ftco-animate">
-          <div className="blog-entry" data-aos-delay={200}>
-            <a
-              href="blog-single.html"
-              className="block-20"
-              style={{
-                backgroundImage:
-                  'url("/images/images/young-girl-cafe-book-reading-coffee_1150-10652.avif")'
-              }}
-            ></a>
-            <div className="text d-flex py-4">
-              <div className="meta mb-3">
-                <div>
-                  <a href="#">Jan. 20, 2019</a>
-                </div>
-                <div>
-                  <a href="#">Admin</a>
-                </div>
-                <div>
-                  <a href="#" className="meta-chat">
-                    <span className="icon-chat" /> 3
-                  </a>
-                </div>
-              </div>
-              <div className="desc pl-3">
-                <h3 className="heading">
-                  <a href="#">
-                    Even the all-powerful Pointing has no control about the
-                    blind texts
-                  </a>
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section className="ftco-section ftco-client">
-    <div className="container">
-      <div className="row justify-content-start mb-5 pb-2">
-        <div className="col-md-4 heading-section ftco-animate">
-          <span className="subheading subheading-with-line">
-            <small className="pr-2 bg-white">Clients</small>
-          </span>
-          <h2 className="mb-4">Our CLients</h2>
-        </div>
-        <div className="col-md-8 pl-md-5 heading-section ftco-animate">
-          <div className="pl-md-4 border-line"></div>
-        </div>
-      </div>
-      <div className="row ftco-animate">
-        <div className="col-md-12">
-          <div className="carousel-client owl-carousel">
-            <div className="item">
-              <img
-                src="/images/images/McDonalds-344x172-c-center.png"
-                alt=""
-                className="src"
-              />
-            </div>
-            <div className="item">
-              <img
-                src="/images/images/Sinai-Health-344x172-c-center.png"
-                alt=""
-                className="src"
-              />
-            </div>
-            <div className="item">
-              <img
-                src="/images/images/ASICS-344x172-c-center.png"
-                alt=""
-                className="src"
-              />
-            </div>
-            <div className="item">
-              <img
-                src="/images/images/Reed-Smith-LLP-344x172-c-center.png"
-                alt=""
-                className="src"
-              />
-            </div>
-            <div className="item">
-              <img
-                src="/images/images/Parkview-Health-344x172-c-center.png"
-                alt=""
-                className="src"
-              />
-            </div>
-            <div className="item">
-              <img
-                src="/images/images/Unity-Health-Toronto-344x172-c-center.png"
-                alt=""
-                className="src"
-              />
-            </div>
-            <div className="item">
-              <img
-                src="/images/images/CHRISTUS-Health-344x172-c-center.png"
-                alt=""
-                className="src"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <br />
+  <br /><br />
 
 
 </>

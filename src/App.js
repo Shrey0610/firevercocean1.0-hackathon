@@ -98,7 +98,11 @@ class App extends React.Component{
       <>
 
       <Navbar/>
-
+      <div className="header2" style={{ height: 2 }}>
+    <div className="progress-container">
+      <div className="progress-bar" id="myBar" />
+    </div>
+  </div>
       {/* <div className="card mb-3 d-flex" style={{ maxWidth: 540 }}>
     <div className="row g-0">
       <div className="col-md-4">
