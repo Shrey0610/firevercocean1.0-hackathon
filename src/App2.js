@@ -40,7 +40,7 @@ function FirstContent(){
           className="rounded-lg-3"
           src= {imagePath}
           alt=""
-          width={600}
+          style= {{width: 600}}
           />
       </div>
     </div>
@@ -297,26 +297,9 @@ class App2 extends React.Component{
         <div className="col-md-8 pl-md-5 heading-section ftco-animate">
           <div className="pl-md-4 border-line">
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in. A small river named Duden flows by their place and
-              supplies it with the necessary regelialia. It is a paradisematic
-              country, in which roasted parts of sentences fly into your mouth.
+            Other features include- providing accommodations to new students for either PG or rental, also we there is a potential feature to add educational materials for students with disabilities (like: problem to talk or read or type, or even for special students who need special support!)
             </p>
-            <p className="category mt-5">
-              <span className="active mr-2">
-                <a href="#">All Work</a>
-              </span>
-              <span className="mr-2">
-                <a href="#">Interior</a>
-              </span>
-              <span className="mr-2">
-                <a href="#">Exterior</a>
-              </span>
-              <span className="mr-2">
-                <a href="#">Landscape</a>
-              </span>
-            </p>
+            
           </div>
         </div>
       </div>
@@ -326,14 +309,14 @@ class App2 extends React.Component{
         <div className="col-md-5 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/young-boy-with-his-head-sky-eyes-closed-clear-day_181624-50883.avif"
+              src="/cheap-inn-affordable-guesthouse-college-dormitory-motel-check-hostel-services-lower-priced-accommodation-best-hostel-facilities-concept_335657-694.avif"
               className="img-fluid"
               alt="Colorlib Template"
             />
             <div className="text">
-              <span>Interior Design</span>
+              
               <h3>
-                <a href="project.html">Office Interior Design</a>
+            
               </h3>
             </div>
           </div>
@@ -341,13 +324,12 @@ class App2 extends React.Component{
         <div className="col-md-6 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/woman-sitting-rock-side-view_23-2149726409.avif"
+              src="/colleagues-studying-university-library_23-2148844723.jpg"
               className="img-fluid"
               alt="Colorlib Template"
             />
             <div className="text">
-              <span>Interior Design</span>
-              <h3>Office Interior Design</h3>
+              
             </div>
           </div>
         </div>
@@ -359,21 +341,19 @@ class App2 extends React.Component{
               alt="Colorlib Template"
             />
             <div className="text">
-              <span>Interior Design</span>
-              <h3>Office Interior Design</h3>
+              
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/serene-young-indian-man-meditating-outdoors-with-his-eyes-closed_1262-12896.avif"
+              src="/students-holding-notebooks-talking_23-2147657126.jpg"
               className="img-fluid"
               alt="Colorlib Template"
             />
             <div className="text">
-              <span>Interior Design</span>
-              <h3>Office Interior Design</h3>
+              
             </div>
           </div>
         </div>
