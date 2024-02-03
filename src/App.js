@@ -1,17 +1,23 @@
 import './App.css';
 import './Slider.css';
 import React from 'react';
-
+const imagePath2 = '/Olivia Wilson (3).png'; 
 function Navbar(){
   return(
+
 <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <center/>
     <div class="container-fluid" >
-    <a class="navbar-brand" href="#">Welcome!!!</a>
-    <div className="scrollmenu">
-    <a href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a class="navbar-brand" href="/"><img src={imagePath2} className="logo"  alt="..." /></a>
+    <div className="scrollmenu" style={{Align: "center"}}>
+    <a href="#home">Path Forge</a>
+    <a href="#news">EduHub</a>
+    <a href="#about">MultiLingo</a>
+    <a href="#contact">LabGuide</a>
+    <a href="#about">Other Services</a>
+    <a href="#about">About Us</a>
+    <a href="#about">Login/SignUp</a>
+
 
   </div>
        <button style={{ backgroundColor: "black" , borderColor: "black"}}
@@ -93,7 +99,7 @@ class App extends React.Component{
 
       <Navbar/>
 
-      <div className="card mb-3 d-flex" style={{ maxWidth: 540 }}>
+      {/* <div className="card mb-3 d-flex" style={{ maxWidth: 540 }}>
     <div className="row g-0">
       <div className="col-md-4">
         <img src={imagePath} className="img-fluid rounded-start" alt="..." />
@@ -126,7 +132,7 @@ class App extends React.Component{
     <p style={{ color: 'black'}}>{this.state.apiResponse}</p>
      
       </button>
-  </p>
+  </p> */}
 </>
   )
 }

@@ -79,7 +79,7 @@
     background-color: #333;
     overflow: auto;
     white-space: wrap;
-    margin:5px;
+    margin:10px;
   }
   
   div.scrollmenu a {
@@ -93,3 +93,14 @@
   div.scrollmenu a:hover {
     background-color: #777;
   }
+
+  .logo{
+    margin:10px;
+    height: 70px;
+    width: 70px;
+  }
+
+  .scrollmenu{
+    padding:10px;
+  }
+  
