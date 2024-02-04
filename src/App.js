@@ -4,6 +4,7 @@ import App2 from './App2';
 import PersonalizedLearningPlatform from './PathForge';
 import Login from './login';
 import ChatApp from './state'
+import otherss from './other'
 
 import About from './about';
 import {
@@ -25,9 +26,9 @@ function Navbar() {
         <div className="scrollmenu" style={{ Align: "center" }}>
           <Link to="/PathForge">Path Forge</Link>
           <Link to="/eduhub">EduHub</Link>
-          <Link to="#about">MultiLingo</Link>
-          <Link to="#contact">LabGuide</Link>
-          <Link to="#about">Other Services</Link>
+          <Link to="/multilingo">MultiLingo</Link>
+          <Link to="/labguide">LabGuide</Link>
+          <Link to="/other">Other Services</Link>
           <Link to="/about">About Us</Link>
           <Link to="/Login">Login/SignUp</Link>
         </div>
@@ -250,6 +251,7 @@ class App extends React.Component {
           <Route path="/PathForge" element={<PersonalizedLearningPlatform />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/other" element={<otherss />} />
           <Route path="/eduhub" element={<ChatApp />} />
         </Routes>
         <Footer />
