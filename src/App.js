@@ -50,8 +50,9 @@ function Navbar() {
         >
           <h1 style= {{fontSize: '50px', margin: '10px', paddingTop: '5px'} }>
             Coming soon...
+              <input type="text" style={{fontSize: '20px'}} placeholder='search'/>
           </h1>
-          <h2 style= {{fontSize: '20px', margin: '10px'} }>
+          <h2 style= {{fontSize: '20px', margin: '10px', color: 'white' }}>
             (Wait there's more?)
           </h2>
           {/* ... your offcanvas content */}
