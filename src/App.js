@@ -4,7 +4,9 @@ import App2 from './App2';
 import PersonalizedLearningPlatform from './PathForge';
 import Login from './login';
 import ChatApp from './state'
-import otherss from './other'
+import Multilingo from './multilingo';
+import Otherss from './other'
+
 
 import About from './about';
 import {
@@ -252,8 +254,9 @@ class App extends React.Component {
           <Route path="/PathForge" element={<PersonalizedLearningPlatform />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/other" element={<otherss />} />
+          <Route path="/other" element={<Otherss />} />
           <Route path="/eduhub" element={<ChatApp />} />
+          <Route path="/multilingo" element={<Multilingo />} />
         </Routes>
         <Footer />
       </Router>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const button = document.querySelector('.md\\:hidden button');
+        const navLinks = document.querySelector('.hidden.flex');
+
+        button.addEventListener('click', () => {
+            navLinks.classList.toggle('hidden');
+        });
+
+        // Function to take the prompt and fetch the output from the /generate endpoint
+        const populate = async () => {
+            let prompt = document.querySelector('textarea').value;
+            let response = await fetch('/generate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ prompt: prompt })
+            });
+          content.innerHTML = await response.text();
+        }
+       const submitBtn = document.querySelector('#submitBtn');
+            submitBtn.addEventListener('click', () => {
+                populate();
+            });
+    </script>
+
+    
+</body>
+</html>
