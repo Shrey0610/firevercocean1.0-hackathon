@@ -15,7 +15,6 @@ At VidhyaYatraAI, we prioritize the utmost security and privacy for your educati
 
 2.Be Ready to Lift Up your mood, because Askpixie is coming with its feature of sentiment Analysis.
 
-<img width="1440" alt="Screenshot 2024-02-04 at 15 22 35" src="https://github.com/Shrey0610/firevercocean1.0-hackathon/assets/119574537/8354aa48-12b0-48c1-91cf-09afe7f7331f">
 
 
 
