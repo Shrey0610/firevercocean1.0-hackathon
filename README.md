@@ -1,5 +1,3 @@
-https://github.com/Shrey0610/firevercocean1.0-hackathon/assets/119574537/94248c60-b251-4d7e-9fa7-4458dbfebf0a
-
 # VidyaYatraAI-
 It is the modern day AI driven educational website which every student will use in the future...
 
